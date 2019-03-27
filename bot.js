@@ -246,7 +246,7 @@ if(command === `${prefix}toggle` && messageArray[1] != undefined){
   			.catch(console.error);	
 		} else {
 			member.addRole(editor).catch(console.error);
-			message.react('⌨️')
+			message.react('🎥')
 
   			.then(console.log("Boom"))
 
