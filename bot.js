@@ -42,7 +42,7 @@ bot.on('guildMemberAdd', member => {
 
   // Send the message to a designated channel on a server:
 
-   member.guild.channels.get("560513308608692263").send(` What 10 Billion IQ ideas is ${member} bringing to the table? Respond with IQ!roles to specify your specialties`);
+   member.guild.channels.get("560533501397696542").send(` What 10 Billion IQ ideas is ${member} bringing to the table? Respond with IQ!roles to specify your specialties`);
   // Send the message, mentioning the member
  
 
