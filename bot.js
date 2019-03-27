@@ -67,7 +67,17 @@ bot.on("message", async message => {
 
 	if(message.channel.type === "dm") return;
 
+
+function IQ(){
+	var chance = Math.floor(Math.random() * 50) + 1;
+	if(chance == 1){
+		message.channel.send("10 Billion IQ")
+	} else {
+		return;
+	}
+}	
 	
+IQ();	
 
 const member = message.member;
 	//List of roles
@@ -84,7 +94,7 @@ let musician = message.guild.roles.find("name", "musician");
 if(command == "I" && messageArray[1] == "think"){
 	var chance = Math.floor(Math.random() * 4) + 1;
 	if(chance == 1){
-		message.channel.send("10 Billion IQ")
+		message.channel.send("That's 10 Billion IQ")
 	} else {
 		return;
 	}
