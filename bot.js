@@ -78,6 +78,22 @@ function IQ(){
 }	
 	
 IQ();	
+	
+	
+
+function noYou(){	
+	var nou = ["No u.", "NO U!", "no u", "||No u||", "KNOW YU", "*No You.*", "**NO U**"];	
+	
+	if(message.author.id === "244623251773325324"){
+		var pinkIsMean = Math.floor(Math.random() * nou.length);
+		message.reply(nou[pinkIsMean]);
+		return;
+	}
+
+}
+	
+noYou();
+	
 
 const member = message.member;
 	//List of roles
